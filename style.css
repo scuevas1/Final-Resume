@@ -28,14 +28,14 @@ img {
   left: 0; 
   right: 0; 
   z-index: 1000;
-  background: #fff;
+  background: #e7e6e6;
   font-family: "Merriweather", serif;  
   border-bottom: 1px solid #eee;
   display: flex; 
   align-items: center; 
   justify-content: space-between; 
   gap: 16px;
-  padding: 12px 18px;
+  padding: 20px 18px;
 }
 
 .initials-logo {
@@ -68,7 +68,7 @@ img {
   content: ""; 
   position: absolute; 
   left: 0; 
-  bottom: -4px;
+  bottom: 0;
   width: 0; 
   height: 2px; 
   background: #111111; 
@@ -167,4 +167,10 @@ section {
 .address p, 
 .copyright p { 
   margin: 0 0 6px; 
+}
+
+footer { 
+  background: #e7e6e6; 
+  color: #000000;
+  border-top: 1px solid #eeeeee; 
 }
