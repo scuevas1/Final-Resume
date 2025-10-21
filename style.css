@@ -86,7 +86,7 @@ img {
   will-change: transform;
 }
 
-.hero-text {
+.home-text {
   position: absolute; 
   inset: 0;
   display: flex; 
