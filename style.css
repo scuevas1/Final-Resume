@@ -82,7 +82,7 @@ img {
 .home-image{
   position: relative;
   height: 800px; min-height: 520px;
-  background: url("..\images\main.jpg") center / cover no-repeat; 
+  background: url("images/main.jpg") center / cover no-repeat; 
   will-change: transform;
 }
 
@@ -95,7 +95,7 @@ img {
   justify-content: center;
   text-align: center; 
   padding: 0 16px; 
-  color: #111111;
+  color: #ffffff;
   opacity: 0; 
   transform: translateY(10px);
   animation: heroFade .6s ease-out .1s forwards;
