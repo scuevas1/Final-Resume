@@ -135,3 +135,7 @@ img {
   opacity: 1; 
   transform: translateX(-50%) translateY(-2px); 
 }
+
+section { 
+  padding: 56px 18px; 
+}
