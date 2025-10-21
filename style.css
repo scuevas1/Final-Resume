@@ -81,7 +81,7 @@ img {
 
 .home-image{
   position: relative;
-  height: 800px; min-height: 520px;
+  height: 850px; min-height: 520px;
   background: url("images/main.jpg") center / cover no-repeat; 
   will-change: transform;
 }
@@ -117,4 +117,21 @@ img {
   max-width: 820px; 
   margin: 0 0 18px;
   text-shadow: 0 2px 12px rgba(0,0,0,.35);
+}
+
+.learnmore {
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%);
+  bottom: 22px; 
+  color: #ffffff; 
+  text-decoration: none; 
+  letter-spacing: .3px;
+  opacity: .9; 
+  transition: opacity .15s ease, transform .15s ease;
+}
+
+.learnmore:hover { 
+  opacity: 1; 
+  transform: translateX(-50%) translateY(-2px); 
 }
