@@ -1,0 +1,23 @@
+html, body { 
+  margin: 0; 
+  padding: 0; 
+}
+
+html { 
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: "Manrope", Arial, sans-serif;
+  color: #111111;
+  background: #ffffff;
+  line-height: 1.5;
+  padding-top: 80px;            
+}
+
+
+img { 
+  display: block; 
+  max-width: 100%; 
+  height: auto; 
+}
